@@ -1,4 +1,109 @@
-.App {
-  font-family: sans-serif;
+/****************************
+	Table of Contents
+  1. Global Styles
+  2. Utilities
+  3. Logo
+  4. Header
+  5. Search Form
+  6. Menu
+  7. Counter
+****************************/
+
+/* 1. Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #555555;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+}
+
+/* 2. Utilities */
+.container {
+  margin: 1rem 1.5rem 0 1.5rem;
+  height: 800px;
+}
+
+.dark-background {
+  background-color: #232323;
+}
+
+.btn {
+  background-color: #f65261;
+  color: #fff;
+  font-size: 20px;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/* 3. Logo */
+.logo {
+  color: #f65261;
+}
+
+/* 4. Header */
+.header {
+  margin: 1.5rem 1.5rem 0.5rem 1.5rem;
+  height: 200px;
+}
+
+.header-logo {
+  padding: 1rem 2rem;
+}
+
+/* 5. Search Form */
+.search-form {
+  margin-top: 1rem;
+}
+
+.search-input {
+  width: 60%;
+  background: rgba(50, 50, 50, 0.8);
+  mix-blend-mode: normal;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 0.5rem;
+  border: none;
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+/* 6. Menu */
+.menu {
+  display: flex;
+  padding: 1.5rem 1rem;
+}
+
+.menu-item {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: #f65261 solid;
+}
+
+/* 7. Counter */
+.counter {
+  margin: 2rem;
+  display: flex;
+}
+
+.counter .btn,
+.counter p {
+  margin: 1rem;
+  width: 50px;
+  font-size: 30px;
+}
+
+.counter p {
+  margin-top: auto;
+  margin-bottom: auto;
   text-align: center;
 }
